@@ -18,8 +18,13 @@ Primary repository for Master Email Template codebase.
 ### Global
 ##### Description
 ##### Variables
+
+<meta class="mktoColor" id="bodyBackgroundColor" mktoName="Email Body Background Color" default="#ececec">
+<meta class="mktoColor" id="canvasBackgroundColor" mktoName="Email Body Background Color" default="#f9f9f9">
+
 ##### Editable Content
 ##### Program Tokens
+{{my.Email Subject Line}}
 
 ### 1. 
 ##### Description
