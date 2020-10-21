@@ -15,9 +15,32 @@ Primary repository for Master Email Template codebase.
 
 
 ## Module Directory
+### Global
+##### Description
+##### Variables
+##### Editable Content
+##### Program Tokens
 
+### 1. 
+##### Description
+##### Variables
+##### Editable Content
+##### Program Tokens
 
-## Variables
+### 2. 
+##### Description
+##### Variables
+##### Editable Content
+##### Program Tokens
 
+### 3. 
+##### Description
+##### Variables
+##### Editable Content
+##### Program Tokens
 
-## Editable Content Sections
+### 4. 
+##### Description
+##### Variables
+##### Editable Content
+##### Program Tokens
