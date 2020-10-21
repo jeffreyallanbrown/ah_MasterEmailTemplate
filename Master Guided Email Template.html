@@ -340,8 +340,8 @@
     <meta class="mktoString" id="headerButtonURL" mktoName="Background Image CTA URL" default="https://www.atlantichealth.org/conditions-treatments/cancer-care/breast-cancer/silvia-story.html?utm_source={{my.utm_source}}&utm_medium={{my.utm_medium}}" mktoModuleScope='true'>
     <meta class="mktoColor" id="headerButtonBackgroundColor" mktoName="Background Image Button Color" default="#ffffff" mktoModuleScope='true'>
     <meta class="mktoString" id="headerBackgroundColor" mktoName="Background Image Fallback Color" default="#171A5B" mktoModuleScope='true'>
-    <meta class='mktoBoolean' id='backgroundImageModuleCTADisplay' mktoName="Show Background Image CTA" true_value='block' false_value='none' default='true' mktoModuleScope='true'>
-    <meta class='mktoBoolean' id='backgroundImageModuleButtonDisplay' mktoName="Show Background Image Button" true_value='block' false_value='none' default='true' mktoModuleScope='true'>
+    <meta class='mktoBoolean' id='backgroundImageModuleCTADisplay' mktoName="Show Background Image CTA" true_value='' false_value='display:none;mso-hide:all;mso-padding-alt:0px' default='true' mktoModuleScope='true'>
+    <meta class='mktoBoolean' id='backgroundImageModuleButtonDisplay' mktoName="Show Background Image Button" true_value='' false_value='display:none;mso-hide:all;mso-padding-alt:0px' default='true' mktoModuleScope='true'>
 
     <!-- 12. -->
 
@@ -985,10 +985,10 @@ font-family: Arial, Helvetica, sans-serif;
                                                                                         <td class="spacer" style="-webkit-hyphens: none; border-collapse: collapse;" height="20">
                                                                                         </td>
                                                                                     </tr>
-                                                                                    <tr style="display: ${backgroundImageModuleCTADisplay}">
-                                                                                        <td class="a-white" style="display: ${backgroundImageModuleCTADisplay};text-decoration: none;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;color: #e8e9ea;font-size: 16px;font-weight: 300;text-align: right;">
+                                                                                    <tr style="${backgroundImageModuleCTADisplay}">
+                                                                                        <td class="a-white" style="${backgroundImageModuleCTADisplay};text-decoration: none;border-collapse: collapse;font-family: Arial, Helvetica, sans-serif;color: #e8e9ea;font-size: 16px;font-weight: 300;text-align: right;">
                                                                                             <div class="mktoText" id="cta" mktoname="cta">
-                                                                                                <a href="${headerButtonURL}" style="color:#ffffff;text-decoration: none;"><strong>${headerButtonText} ›</strong></a>
+                                                                                                <a href="${headerButtonURL}" style="color:#ffffff;text-decoration: none;${backgroundImageModuleCTADisplay}"><strong>${headerButtonText} ›</strong></a>
                                                                                             </div>
                                                                                         </td>
                                                                                     </tr>
@@ -1001,27 +1001,27 @@ font-family: Arial, Helvetica, sans-serif;
                                                                     <td class="spacer" style="-webkit-hyphens: none; border-collapse: collapse;" height="20">
                                                                     </td>
                                                                 </tr>
-                                                                <tr style="display: ${backgroundImageModuleButtonDisplay}">
-                                                                    <td style="display: ${backgroundImageModuleButtonDisplay}">
-                                                                        <table width="600" border="0" cellspacing="0" cellpadding="0" align="${singleCTAModuleAlignment}" class="wrapper">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td>
-                                                                                        <table width="600" border="0" cellspacing="0" cellpadding="0" align="${singleCTAModuleAlignment}" class="wrapper">
-                                                                                            <tbody>
-                                                                                                <tr>
-                                                                                                    <td>
-                                                                                                        <table width="${singleCTAModuleWidth}" height="${singleCTAModuleHeight}" border="0" cellspacing="0" cellpadding="0" class="eighty give_button" align="center">
-                                                                                                            <tbody>
-                                                                                                                <tr>
-                                                                                                                    <td class="active" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #fff; mso-padding-alt: 16px 23px 16px 19px; word-spacing: 1px;background-color:${singleButtonBackgroundColor};border-radius:0px;" bgcolor="${singleButtonBackgroundColor}"
+                                                                <tr style="${backgroundImageModuleButtonDisplay}">
+                                                                    <td style="${backgroundImageModuleButtonDisplay}">
+                                                                        <table width="600" border="0" cellspacing="0" cellpadding="0" align="${singleCTAModuleAlignment}" class="wrapper" style="${backgroundImageModuleButtonDisplay}">
+                                                                            <tbody style="${backgroundImageModuleButtonDisplay}">
+                                                                                <tr style="${backgroundImageModuleButtonDisplay}">
+                                                                                    <td style="${backgroundImageModuleButtonDisplay}">
+                                                                                        <table width="600" border="0" cellspacing="0" cellpadding="0" align="${singleCTAModuleAlignment}" class="wrapper" style="${backgroundImageModuleButtonDisplay}">
+                                                                                            <tbody style="${backgroundImageModuleButtonDisplay}">
+                                                                                                <tr style="${backgroundImageModuleButtonDisplay}">
+                                                                                                    <td style="${backgroundImageModuleButtonDisplay}">
+                                                                                                        <table width="${singleCTAModuleWidth}" height="${singleCTAModuleHeight}" border="0" cellspacing="0" cellpadding="0" class="eighty give_button" align="center" style="${backgroundImageModuleButtonDisplay}">
+                                                                                                            <tbody style="${backgroundImageModuleButtonDisplay}">
+                                                                                                                <tr style="${backgroundImageModuleButtonDisplay}">
+                                                                                                                    <td class="active" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #fff; mso-padding-alt: 16px 23px 16px 19px; word-spacing: 1px;background-color:${singleButtonBackgroundColor};border-radius:0px;${backgroundImageModuleButtonDisplay}" bgcolor="${singleButtonBackgroundColor}"
                                                                                                                         align="center">
-                                                                                                                        <table>
-                                                                                                                            <tbody>
-                                                                                                                                <tr>
-                                                                                                                                    <td>
+                                                                                                                        <table style="${backgroundImageModuleButtonDisplay}">
+                                                                                                                            <tbody style="${backgroundImageModuleButtonDisplay}">
+                                                                                                                                <tr style="${backgroundImageModuleButtonDisplay}">
+                                                                                                                                    <td style="${backgroundImageModuleButtonDisplay}">
                                                                                                                                         <div class="mktoText a-white" id="singleCTAButtonText2" mktoName="Single CTA Button Text">
-                                                                                                                                            <a class="a-white" href="#" target="_blank" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: #ffffff; display: block;  word-break: break-all!important;padding: 16px 23px;">
+                                                                                                                                            <a class="a-white" href="#" target="_blank" style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: #ffffff; display: block;  word-break: break-all!important;padding: 16px 23px;${backgroundImageModuleButtonDisplay}">
                                                                                                                                                 <strong>Sign Up Now</strong></a>
                                                                                                                                         </div>
                                                                                                                                     </td>
