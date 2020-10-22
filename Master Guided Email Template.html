@@ -317,9 +317,10 @@
 
 
     <!-- 4. -->
+    <meta class="mktoNumber" id="lineSeperatorWidth" mktoName="Line Separator Width" default="660" min="1" max="660" units="" step="1" mktoModuleScope='true'>
     <meta class="mktoColor" id="lineSeperatorColor" mktoName="Line Separator Color" default="#171A5B" mktoModuleScope='true'>
 
-
+    
     <!-- 5. -->
     <meta class="mktoColor" id="menuModuleBackgroundColor" mktoName="Menu Module Background Color" default="#dddddd" mktoModuleScope='true'>
     <meta class="mktoColor" id="menuModuleTextColor" mktoName="Menu Module Text Color" default="#b3b3b3" mktoModuleScope='true'>
@@ -531,20 +532,13 @@
 
 
 
-                            <!-- 4a. Line Seperator Module -->
-                            <tr class="mktoModule" id="thinLineSeparatorModule" mktoname="Thin Line Separator Module" bgcolor="${bodyBackgroundColor}" mktoAddByDefault="false">
-                                <td height="1px" bgcolor="${lineSeperatorColor}" style="line-height:1px;font-size: 1px;">&nbsp;</td>
-                            </tr>
-
-          
+                            <!-- 4. Line Seperator Module -->
                             <tr class="mktoModule" id="thinLineSeparatorModule" mktoname="Thin Line Separator Module" bgcolor="${bodyBackgroundColor}" mktoAddByDefault="false">
                                 <td>
-                                    <table class="wrapper" align="center" width="600" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+                                    <table class="wrapper" align="center" width="${lineSeperatorWidth}" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
                                         <tbody>
                                             <tr>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
+                                                <td height="1px" bgcolor="${lineSeperatorColor}" style="line-height:1px;font-size: 1px;">&nbsp;</td>
                                             </tr>
                                         </tbody>
                                     </table>
