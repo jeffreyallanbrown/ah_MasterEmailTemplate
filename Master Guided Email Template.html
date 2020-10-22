@@ -301,38 +301,46 @@
     </xml>
     <![endif]-->
 
-    <!-- Global -->
-    <meta class="mktoColor" id="bodyBackgroundColor" mktoName="Email Body Background Color" default="#ececec">
-    <meta class="mktoColor" id="canvasBackgroundColor" mktoName="Email Body Background Color" default="#f9f9f9">
+    <!-- 0. Global -->
+    <meta class="mktoColor" id="canvasBackgroundColor" mktoName="Canvas Background Color" default="#f9f9f9">
+    <meta class="mktoColor" id="bodyBackgroundColor" mktoName="Email Background Color" default="#ececec">
+
 
     <!-- 1. -->
 
+
     <!-- 2. -->
 
+
     <!-- 3. -->
+    <meta class="mktoNumber" id="customHeight" mktoName="Spacer Height" default="20" min="1" max="300" units="" step="1" mktoModuleScope='true'>
+
 
     <!-- 4. -->
-    <meta class="mktoNumber" id="customHeightModuleValue" mktoName="Custom Height Value" default="20" min="1" max="300" units="px" step="1" mktoModuleScope='true'>
+    <meta class="mktoColor" id="lineSeperatorColor" mktoName="Line Separator Color" default="#171A5B" mktoModuleScope='true'>
+
 
     <!-- 5. -->
-    <meta class="mktoColor" id="thinSeperatorColor" mktoName="Thin Line Separator Color" default="#171A5B" mktoModuleScope='true'>
-
-    <!-- 6. -->
     <meta class="mktoColor" id="menuModuleBackgroundColor" mktoName="Menu Module Background Color" default="#dddddd" mktoModuleScope='true'>
     <meta class="mktoColor" id="menuModuleTextColor" mktoName="Menu Module Text Color" default="#b3b3b3" mktoModuleScope='true'>
 
-    <!-- 7. -->
 
-    <!-- 8. -->
+    <!-- 6. -->
+
+
+    <!-- 7. -->
     <meta class="mktoColor" id="mastheadModuleBackgroundColor" mktoName="Masthead Background Color" default="#171a5b" mktoModuleScope='true'>
     <meta class="mktoColor" id="mastheadModuleBottomBorderColor" mktoName="Masthead Module Bottom Border Color" default="#f3910d" mktoModuleScope='true'>
 
-    <!-- 9. -->
+
+    <!-- 8. -->
     <meta class="mktoColor" id="blueSeperatorColor" mktoName="Blue Line Separator Color" default="#171A5B" mktoModuleScope='true'>
 
-    <!-- 10. -->
 
-    <!-- 11. -->
+    <!-- 9. -->
+
+
+    <!-- 10. -->
     <meta class="mktoImg" id="heroBackgroundImage" mktoName="Background Image Source" default="https://info.atlantichealth.org/rs/389-IER-871/images/Silvia-Montoya-46.3.jpg" mktoModuleScope='true'>
     <meta class="mktoNumber" id="heroBackGroundImageHeight" mktoName="Background Image Height" default="440" min="50" max="1000" units="px" step="1" mktoModuleScope='true'>
     <meta class="mktoNumber" id="headerSpacerHeight" mktoName="Background Image Top Spacing" default="290" mktoModuleScope='true'>
@@ -343,7 +351,9 @@
     <meta class='mktoBoolean' id='backgroundImageModuleCTADisplay' mktoName="Show Background Image CTA" true_value='' false_value='display:none;mso-hide:all;mso-padding-alt:0px' default='true' mktoModuleScope='true'>
     <meta class='mktoBoolean' id='backgroundImageModuleButtonDisplay' mktoName="Show Background Image Button" true_value='' false_value='display:none;mso-hide:all;mso-padding-alt:0px' default='true' mktoModuleScope='true'>
 
+
     <!-- 12. -->
+
 
     <!-- 13. -->
     <meta class="mktoString" id="singleCTAModuleAlignment" mktoName="Single CTA Alignment" default="center" mktoModuleScope='true'>
@@ -351,15 +361,18 @@
     <meta class="mktoNumber" id="singleCTAModuleWidth" mktoName="Single CTA Width" default="250" min="50" max="500" units="px" step="1" mktoModuleScope='true'>
     <meta class="mktoNumber" id="singleCTAModuleHeight" mktoName="Single CTA Height" default="58" min="10" max="250" units="px" step="1" mktoModuleScope='true'>
 
+
     <!-- 14. -->
     <meta class="mktoColor" id="twoColumnCallout1BackgroundColor" mktoName="Two Column Callout 1 - Background Color" default="#171a5b" mktoModuleScope='true'>
     <meta class="mktoNumber" id="twoColumnCallout1CTAWidth" mktoName="Two Column Callout 1 CTA Width" default="175" min="50" max="300" units="px" step="1" mktoModuleScope='true'>
     <meta class='mktoBoolean' id='twoColumnCallout1CTADisplay' mktoName="Show Two Column Callout 1 CTA" true_value='block' false_value='none' default='true' mktoModuleScope='true'>
-
     <meta class="mktoColor" id="twoColumnCallout2BackgroundColor" mktoName="Two Column Callout 2 - Background Color" default="#f3910d" mktoModuleScope='true'>
     <meta class="mktoNumber" id="twoColumnCallout2CTAWidth" mktoName="Two Column Callout 2 CTA Width" default="175" min="50" max="300" units="px" step="1" mktoModuleScope='true'>
     <meta class='mktoBoolean' id='twoColumnCallout2CTADisplay' mktoName="Show Two Column Callout 2 CTA" true_value='block' false_value='none' default='true' mktoModuleScope='true'>
+    
+    
     <!-- 15. -->
+
 
     <!-- 16. -->
     <meta class="mktoString" id="singleCTAModule2Alignment" mktoName="Single CTA Alignment" default="center" mktoModuleScope='true'>
@@ -370,6 +383,7 @@
     <meta class="mktoColor" id="singleCTAModule2BorderColor" mktoName="Single Button Border Color" default="#f3910d" mktoModuleScope='true'>
     <meta class="mktoNumber" id="singleCTAModule2BorderThickness" mktoName="Single CTA Border Thickness" default="5" min="0" max="50" units="px" step="1" mktoModuleScope='true'>
 
+
     <!-- 17. -->
     <meta class="mktoColor" id="primaryTextModuleBackgroundColor" mktoName="Primary Text Module Background Color" default="#171a5b" mktoModuleScope='true'>
     <meta class="mktoColor" id="primaryTextModuleTextColor" mktoName="Primary Text Module Text Color" default="#ffffff" mktoModuleScope='true'>
@@ -377,35 +391,47 @@
     <meta class="mktoNumber" id="primaryTextModuleCTAWidth" mktoName="Primary Text Module CTA Width" default="225" min="50" max="1000" units="px" step="1" mktoModuleScope='true'>
     <meta class="mktoNumber" id="primaryTextModuleCTAHeight" mktoName="Primary Text Module CTA Height" default="44" min="5" max="200" units="px" step="1" mktoModuleScope='true'>
 
+
     <!-- 18. -->
     <meta class="mktoColor" id="bodyTextModuleTextOnlyBackgroundColor" mktoName="Body Text Module Text Only - Background Color" default="#171a5b" mktoModuleScope='true'>
     <meta class="mktoColor" id="bodyTextModuleTextOnlyTextColor" mktoName="Body Text Module Text Only - Text Color" default="#dddddd" mktoModuleScope='true'>
     <meta class="mktoNumber" id="bodyTextModuleSpacing" mktoName="Body Text Module Spacing" default="20" min="0" max="300" units="px" step="1" mktoModuleScope='true'>
 
+
     <!-- 19. -->
     <meta class="mktoColor" id="headlineModuleBackgroundColor" mktoName="Headline Module Background Color" default="#171a5b" mktoModuleScope='true'>
 
+
     <!-- 20. -->
     <meta class="mktoColor" id="eventInformationModuleBackgroundColor" mktoName="Event Information Module Background Color" default="#ffffff" mktoModuleScope='true'>
+    <meta class="mktoColor" id="eventInformationModuleDateBlockColor" mktoName="Event Information Module Date Block Color" default="#222222" mktoModuleScope='true'>
+    <meta class="mktoNumber" id="eventInformationModuleTopSpacing" mktoName="Event Date Block Top Spacing" default="15" min="0" max="300" units="" step="1" mktoModuleScope='true'>
+    <meta class="mktoNumber" id="eventInformationModuleBottomSpacing" mktoName="Event Date Block Bottom Spacing" default="15" min="0" max="300" units="" step="1" mktoModuleScope='true'>
+
+
 
     <!-- 21. -->
 
+
     <!-- 22. -->
+
 
     <!-- 23. -->
 
+
     <!-- 24. -->
+
 
     <!-- 25. -->
 
+
     <!-- 26. -->
 
-    <!-- 27. -->
 
+    <!-- 27. -->
     <meta class="mktoImg" id="threeColumnBox1BackgroundImage" mktoName="Three Column - Box 1 Background Image" default="https://info.atlantichealth.org/rs/389-IER-871/images/Marketo-Telemedicine-220x220.jpg" mktoModuleScope='true'>
     <meta class="mktoImg" id="threeColumnBox2BackgroundImage" mktoName="Three Column - Box 2 Background Image" default="https://info.atlantichealth.org/rs/389-IER-871/images/Marketo-UrgentCare-220x220.jpg" mktoModuleScope='true'>
     <meta class="mktoImg" id="threeColumnBox3BackgroundImage" mktoName="Three Column - Box 3 Background Image" default="https://info.atlantichealth.org/rs/389-IER-871/images/Marketo-VirtualVisit-220x220.jpg" mktoModuleScope='true'>
-
 
     <meta class="mktoColor" id="threeColumnSolidBackground1" mktoName="Three Column Solid Background Color 1" default="#171A5B" mktoModuleScope='true'>
     <meta class='mktoBoolean' id='threeColumnCallout1CTADisplay' mktoName="Show Three Column Callout 1 CTA" true_value='block' false_value='none' default='true' mktoModuleScope='true'>
@@ -421,7 +447,6 @@
     <meta class='mktoBoolean' id='threeColumnCallout3CTADisplay' mktoName="Show Three Column Callout 3 CTA" true_value='block' false_value='none' default='true' mktoModuleScope='true'>
     <meta class="mktoNumber" id="threeColumnCallout3CTAWidth" mktoName="Three Column Solid Background CTA 3 Width" default="150" min="5" max="500" units="px" step="1" mktoModuleScope='true'>
     <meta class="mktoNumber" id="threeColumnMiddleSpacing3" mktoName="Three Column Solid Background Middle Spacing 3" default="15" min="5" max="500" units="px" step="1" mktoModuleScope='true'>
-
 
     <meta class='mktoBoolean' id='twoColumnCalloutCTA1Show' mktoName="Show Two Column Callout CTA 1 Button" true_value='block' false_value='none' default='true' mktoModuleScope='true'>
     <meta class="mktoColor" id="twoColumnCalloutBackgroundColorMain" mktoName="Two Column Callout Background Color Main" default="#171a5b" mktoModuleScope='true'>
@@ -451,7 +476,6 @@
                         <tbody>
 
 
-
                             <!-- 1. Preheader Text Module -->
                             <tr class="mktoModule" id="preheaderTextEditModule" mktoname="Preheader Text Edit Module" bgcolor="${bodyBackgroundColor}">
                                 <td width="100%">
@@ -466,7 +490,6 @@
                                     </table>
                                 </td>
                             </tr>
-
 
 
                             <!-- 2. View Online Text Module -->
@@ -501,22 +524,32 @@
 
 
 
-
                             <!-- 3. Custom Height Spacer Module -->
-                            <tr class="mktoModule" id="spacerModuleCustomHeight" mktoname="Custom Height Spacer Module" bgcolor="${bodyBackgroundColor}" mktoAddByDefault="false">
-                                <td height="${customHeightModuleValue}" style="line-height:${customHeightModuleValue}px;font-size: ${customHeightModuleValue}px;">&nbsp;</td>
+                            <tr class="mktoModule" id="customSpacerModule" mktoname="Custom Spacer Module" bgcolor="${bodyBackgroundColor}" mktoAddByDefault="false">
+                                <td height="${customHeight}" style="line-height:${customHeight}px;font-size: ${customHeight}px;">&nbsp;</td>
                             </tr>
 
 
 
-
-
-                            <!-- 4. Line Seperator Module -->
+                            <!-- 4a. Line Seperator Module -->
                             <tr class="mktoModule" id="thinLineSeparatorModule" mktoname="Thin Line Separator Module" bgcolor="${bodyBackgroundColor}" mktoAddByDefault="false">
-                                <td height="1px" bgcolor="${blueSeperatorColor}" style="line-height:1px;font-size: 1px;">&nbsp;</td>
+                                <td height="1px" bgcolor="${lineSeperatorColor}" style="line-height:1px;font-size: 1px;">&nbsp;</td>
                             </tr>
 
-
+          
+                            <tr class="mktoModule" id="thinLineSeparatorModule" mktoname="Thin Line Separator Module" bgcolor="${bodyBackgroundColor}" mktoAddByDefault="false">
+                                <td>
+                                    <table class="wrapper" align="center" width="600" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
 
 
 
@@ -1556,14 +1589,14 @@
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td align="center" width="100">
-                                                                                    <table width="100" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" bgcolor="#222222">
+                                                                                    <table width="100" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" bgcolor="${eventInformationModuleDateBlockColor}">
                                                                                         <tbody>
                                                                                             <tr>
                                                                                                 <td>
                                                                                                     <table width="100" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
                                                                                                         <tbody>
                                                                                                             <tr>
-                                                                                                                <td height="15px" style="font-size: 15px; line-height: 15px">&nbsp;</td>
+                                                                                                                <td height="${eventInformationModuleTopSpacing}" style="font-size: ${eventInformationModuleTopSpacing}px; line-height: ${eventInformationModuleTopSpacing}px">&nbsp;</td>
                                                                                                             </tr>
                                                                                                             <tr>
                                                                                                                 <td class="wrapper">
@@ -1579,9 +1612,8 @@
                                                                                                                     </div>
                                                                                                                 </td>
                                                                                                             </tr>
-
                                                                                                             <tr>
-                                                                                                                <td height="15px" style="font-size: 15px; line-height: 15px">&nbsp;</td>
+                                                                                                                <td height="${eventInformationModuleBottomSpacing}" style="font-size: ${eventInformationModuleBottomSpacing}px; line-height: ${eventInformationModuleBottomSpacing}px">&nbsp;</td>
                                                                                                             </tr>
                                                                                                         </tbody>
                                                                                                     </table>
