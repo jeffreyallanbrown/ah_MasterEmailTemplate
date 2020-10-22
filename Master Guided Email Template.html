@@ -538,7 +538,15 @@
                                     <table class="wrapper" align="center" width="${lineSeperatorWidth}" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
                                         <tbody>
                                             <tr>
-                                                <td height="1px" bgcolor="${lineSeperatorColor}" style="line-height:1px;font-size: 1px;">&nbsp;</td>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100% !important">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" valign="top" height="1" bgcolor="${lineSeperatorColor}" style="background-color: ${lineSeperatorColor}; border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 1px;"><!--[if gte mso 15]>&nbsp;<![endif]--></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -2904,7 +2912,7 @@
 
 
                             <!-- 27b. Footer Module (Chambers) -->
-                            <tr class="mktoModule" id="footerTextModule" mktoname="Footer Text Module"> 
+                            <tr class="mktoModule" id="chambersFooterTextModule" mktoname="Footer Text Module"> 
                                 <td> 
                                   <table bgcolor="#2b2b2b" width="660" border="0" cellpadding="0" cellspacing="0" class="wrapper"> 
                                     <tbody> 
@@ -2919,26 +2927,26 @@
                                               </tr> 
                                               <tr> 
                                                 <td align="center" style="font-size:14px; color:#9d9d9d; line-height:22px;font-family: Arial, Helvetica, sans-serif; "> 
-                                                  <div class="mktEditable" id="Footerdisclaimer" mktoname="Footer Disclaimer ">
+                                                  <div class="mktEditable" id="chambersFooterDisclaimer" mktoname="Footer Disclaimer ">
                                                     <span style="font-family: arial, helvetica, sans-serif;"><em>This is a promotional message from Chambers Center for Well-Being. Communications via email are not considered secure. Information provided by email may be at risk of being disclosed or intercepted by third parties.<br></em></span> 
                                                     <br>
                                                   </div> </td> 
                                               </tr> 
                                               <tr> 
                                                 <td align="center" style="font-size:14px; color:#9d9d9d; line-height:22px; font-family: Arial, Helvetica, sans-serif; "><a href="{{system.ViewaswebpageLink}}" style="color:#c5c5c5; text-decoration:underline" target="_blank"><strong>View in Browser</strong></a> | <a href="{{system.forwardToFriendLink}}" class="link-white" style="color:#c5c5c5; text-decoration:underline" target="_blank "><strong>Forward to a friend</strong></a><br> 
-                                                  <div class="mktEditable" id="FooterUnsubs" mktoname="Footer Unsubscribe ">
+                                                  <div class="mktEditable" id="chambersFooterUnsubs" mktoname="Footer Unsubscribe ">
                                                     <p><span style="font-family: arial, helvetica, sans-serif;"><em><a href="https://info.atlantichealth.org/Global-Opt-Out-Page.html?e={{lead.Email Address}}&amp;mkt_unsubscribe=1" class="link-white" style="color: #dcdcdc; text-decoration: underline;" target="_blank "><strong>Unsubscribe from&nbsp;Chambers Center for Well-Being&nbsp;promotional emails. </strong></a></em></span></p>
                                                   </div> </td> 
                                               </tr> 
                                               <tr> 
                                                 <td align="center" style="font-size:14px; color:#9d9d9d; line-height:22px; font-family: Arial, Helvetica, sans-serif; "> 
-                                                  <div class="mktEditable" id="FooterCopyright" mktoname="Footer Copyright ">
+                                                  <div class="mktEditable" id="chambersFooterCopyright" mktoname="Footer Copyright ">
                                                     <p><span style="font-family: arial, helvetica, sans-serif;"><em>© {{my.copyrightyear}}&nbsp;Chambers Center for Well-Being&nbsp;– All rights reserved</em></span></p>
                                                   </div> </td> 
                                               </tr> 
                                               <tr> 
                                                 <td align="center" style="font-size:14px; color:#9d9d9d; line-height:22px;font-family: Arial, Helvetica, sans-serif;  "> 
-                                                  <div class="mktEditable" id="FooterAddress" mktoname="Footer Address ">
+                                                  <div class="mktEditable" id="chambersFooterAddress" mktoname="Footer Address ">
                                                     <span style="font-family: arial, helvetica, sans-serif;"><em>&nbsp;435 South Street (Suite 160), Morristown, NJ 07960</em></span>
                                                   </div> </td> 
                                               </tr> 
